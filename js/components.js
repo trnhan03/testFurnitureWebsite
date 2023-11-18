@@ -1,4 +1,4 @@
-function addHeader() {
+function addHeader() { 
     document.write(`
     <header>
     <div class="header-web">

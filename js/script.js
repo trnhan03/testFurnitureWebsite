@@ -145,12 +145,12 @@ function CheckSectionDisplay(num) {
 
 // Hide all sections except for homepage section
 
-window.addEventListener('load', function() {
-    var sections = document.getElementsByTagName('section');
-    for (var i = 0; i < sections.length; i++) {
-        if (sections[i].id !== 'home-page') {
-            sections[i].style.display = 'none';
-        }
-    }
-});
+    // window.addEventListener('load', function() {
+    //     var sections = document.getElementsByTagName('section');
+    //     for (var i = 0; i < sections.length; i++) {
+    //         if (sections[i].id !== 'home-page') {
+    //             sections[i].style.display = 'none';
+    //         }
+    //     }
+    // });
 
